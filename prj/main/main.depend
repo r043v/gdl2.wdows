@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1164643009 d:\lapinew\main\main.cpp
+	"../Gdl/Gdl.h"
+	"./gfx/greenfont.h"
+
+1164299624 d:\lapinew\gdl\gdl.h
+	"./config.h"
+	"./output/graphic/gfm/Gfm.h"
+	"./input/xml/xml.h"
+	"./output/graphic/map/map.h"
+	"./output/sound/mymixr/myMixr.h"
+	"./input/mod/mdpl.h"
+	"./output/sound/minifmod/minifmod.h"
+	"./input/rar/unrarlib.h"
+
+1164535772 d:\lapinew\gdl\config.h
+	"./ini.h"
+
+1162505699 d:\lapinew\gdl\ini.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<SDL.h>
+	"./output/graphic/fbuffer/rlyeh/minimal.h"
+	<windows.h>
+	"./output/graphic/fbuffer/ptc/tinyPtc.h"
+
+1150750182 d:\lapinew\gdl\output\graphic\fbuffer\rlyeh\minimal.h
+	<fcntl.h>
+	<linux/fb.h>
+	<pthread.h>
+	<signal.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/soundcard.h>
+	<sys/time.h>
+	<unistd.h>
+
+1162506890 d:\lapinew\gdl\output\graphic\fbuffer\ptc\tinyptc.h
+	"ddraw.h"
+
+893437246 d:\lapinew\gdl\output\graphic\fbuffer\ptc\ddraw.h
+	<objbase.h>
+
+1164285759 d:\lapinew\gdl\output\graphic\gfm\gfm.h
+
+1161619380 d:\lapinew\gdl\input\xml\xml.h
+	"../../Gdl.h"
+
+1161884475 d:\lapinew\gdl\output\graphic\map\map.h
+	"../../../Gdl.h"
+
+1154351482 d:\lapinew\gdl\output\sound\mymixr\mymixr.h
+
+1161622256 d:\lapinew\gdl\input\mod\mdpl.h
+
+1161433112 d:\lapinew\gdl\output\sound\minifmod\minifmod.h
+
+1161436944 d:\lapinew\gdl\input\rar\unrarlib.h
+
+1161884590 d:\lapinew\main\gfx\greenfont.h
+

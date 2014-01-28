@@ -1,0 +1,16 @@
+PRZYSTAN
+
+Map Format: Shorts(2 Bytes)
+
+Map Size: 20x16 tiles
+Gfx Tile Size: 32x32 pixels
+
+Tiles File Size: 1x158 tiles
+
+Files Generated:
+  C:\Documents and Settings\EMILIE\Mis documentos\gdl\main\gfx\PRZYSTAN.map
+  C:\Documents and Settings\EMILIE\Mis documentos\gdl\main\gfx\PRZYSTAN_Tiles.bmp
+  C:\Documents and Settings\EMILIE\Mis documentos\gdl\main\gfx\PRZYSTAN_Info.txt
+
+Process Started: 00:46:08
+Process Ended: 00:46:08

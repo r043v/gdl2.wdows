@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Gdl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP8E.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /FR"Release/" /Fp"Release/Gdl.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\micro\Gdl\output\sound\minifmod\Fmusic.c"
+"D:\micro\Gdl\output\sound\minifmod\Fsound.c"
+"D:\micro\Gdl\output\sound\minifmod\minifmodio.cpp"
+"D:\micro\Gdl\output\sound\minifmod\mixer_clipcopy.c"
+"D:\micro\Gdl\output\sound\minifmod\mixer_fpu_ramp.c"
+"D:\micro\Gdl\output\sound\minifmod\music_formatxm.c"
+"D:\micro\Gdl\output\sound\minifmod\system_file.c"
+"D:\micro\Gdl\output\sound\mymixr\myMixr.cpp"
+"D:\micro\Gdl\output\sound\sound.cpp"
+"D:\micro\Gdl\output\graphic\map\map.cpp"
+"D:\micro\Gdl\output\graphic\gfm\Gfm.cpp"
+"D:\micro\Gdl\output\graphic\fbuffer\rlyeh\minimal.c"
+"D:\micro\Gdl\output\graphic\fbuffer\ptc\convert.c"
+"D:\micro\Gdl\output\graphic\fbuffer\ptc\ddraw.c"
+"D:\micro\Gdl\output\graphic\fbuffer\ptc\tinyptc.c"
+"D:\micro\Gdl\output\graphic\fbuffer\fbuffer.cpp"
+"D:\micro\Gdl\output\graphic\anim.cpp"
+"D:\micro\Gdl\output\graphic\text.cpp"
+"D:\micro\Gdl\input\rar\unrarlib.c"
+"D:\micro\Gdl\input\xml\xml.cpp"
+"D:\micro\Gdl\input\mod\mdpl.cpp"
+"D:\micro\Gdl\input\s3m\s3m.cpp"
+"D:\micro\Gdl\input\key.cpp"
+"D:\micro\Gdl\input\pcx.cpp"
+"D:\micro\Gdl\input\tga.cpp"
+"D:\micro\Gdl\misc\fileio.cpp"
+"D:\micro\Gdl\misc\freelist.cpp"
+"D:\micro\Gdl\misc\log.cpp"
+"D:\micro\Gdl\misc\misc.cpp"
+"D:\micro\Gdl\misc\tablesMath.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP8E.tmp" 
+Creating temporary file "C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+/nologo /out:"Release\Gdl.lib" 
+.\Release\Fmusic.obj
+.\Release\Fsound.obj
+.\Release\minifmodio.obj
+.\Release\mixer_clipcopy.obj
+.\Release\mixer_fpu_ramp.obj
+.\Release\music_formatxm.obj
+.\Release\system_file.obj
+.\Release\myMixr.obj
+.\Release\sound.obj
+.\Release\map.obj
+.\Release\Gfm.obj
+.\Release\minimal.obj
+.\Release\convert.obj
+.\Release\ddraw.obj
+.\Release\tinyptc.obj
+.\Release\fbuffer.obj
+.\Release\anim.obj
+.\Release\text.obj
+.\Release\unrarlib.obj
+.\Release\xml.obj
+.\Release\mdpl.obj
+.\Release\s3m.obj
+.\Release\key.obj
+.\Release\pcx.obj
+.\Release\tga.obj
+.\Release\fileio.obj
+.\Release\freelist.obj
+.\Release\log.obj
+.\Release\misc.obj
+.\Release\tablesMath.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ferof\LOCALS~1\Temp\RSP8F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Fmusic.c
+Fsound.c
+minifmodio.cpp
+mixer_clipcopy.c
+mixer_fpu_ramp.c
+music_formatxm.c
+system_file.c
+myMixr.cpp
+sound.cpp
+map.cpp
+Gfm.cpp
+minimal.c
+convert.c
+ddraw.c
+tinyptc.c
+fbuffer.cpp
+anim.cpp
+text.cpp
+unrarlib.c
+xml.cpp
+mdpl.cpp
+s3m.cpp
+key.cpp
+pcx.cpp
+tga.cpp
+fileio.cpp
+freelist.cpp
+log.cpp
+misc.cpp
+tablesMath.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+Gdl.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

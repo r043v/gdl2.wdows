@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="main"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option compiler="1"/>
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:\lapinew\prj\main\Release\main.exe"/>
+				<Option working_dir="."/>
+				<Option object_output="Release"/>
+				<Option deps_output=".deps"/>
+				<Option external_deps="D:\lapinew\prj\Gdl\Release\Gdl.lib;"/>
+				<Option type="0"/>
+				<Option compiler="1"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Compiler>
+					<Add option="/W3"/>
+					<Add option="/DWIN32"/>
+					<Add option="/DNDEBUG"/>
+					<Add option="/D_WINDOWS"/>
+					<Add option="/D_MBCS"/>
+				</Compiler>
+				<Linker>
+					<Add library="D:\lapinew\prj\Gdl\Release\Gdl.lib"/>
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:\lapinew\prj\main\Debug\main.exe"/>
+				<Option working_dir="."/>
+				<Option object_output="Debug"/>
+				<Option deps_output=".deps"/>
+				<Option external_deps="D:\lapinew\prj\Gdl\Debug\Gdl.lib;"/>
+				<Option type="0"/>
+				<Option compiler="1"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Compiler>
+					<Add option="/W3"/>
+					<Add option="/Gm"/>
+					<Add option="/GX"/>
+					<Add option="/ZI"/>
+					<Add option="/Od"/>
+					<Add option="/DWIN32"/>
+					<Add option="/D_DEBUG"/>
+					<Add option="/D_WINDOWS"/>
+					<Add option="/D_MBCS"/>
+					<Add option="/YX"/>
+					<Add option="/FD"/>
+					<Add option="/GZ"/>
+				</Compiler>
+				<Linker>
+					<Add library="D:\lapinew\prj\Gdl\Debug\Gdl.lib"/>
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\Winmm.lib">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\main\main.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

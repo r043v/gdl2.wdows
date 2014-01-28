@@ -1,0 +1,16 @@
+exemple
+
+Map Format: Shorts(2 Bytes)
+
+Map Size: 25x40 tiles
+Gfx Tile Size: 16x16 pixels
+
+Tiles File Size: 1x459 tiles
+
+Files Generated:
+  D:\gdlMapMak'r\main\gfx\exemple.map
+  D:\gdlMapMak'r\main\gfx\exemple_Tiles.bmp
+  D:\gdlMapMak'r\main\gfx\exemple_Info.txt
+
+Process Started: 15:13:00
+Process Ended: 15:13:01

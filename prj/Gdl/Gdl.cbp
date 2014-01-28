@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="Gdl"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option default_target="-1"/>
+		<Option compiler="1"/>
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:\lapinew\prj\Gdl\Release\Gdl.lib"/>
+				<Option working_dir=""/>
+				<Option object_output="Release"/>
+				<Option deps_output=".deps"/>
+				<Option type="2"/>
+				<Option compiler="1"/>
+				<Option createDefFile="1"/>
+				<Option projectResourceIncludeDirsRelation="2"/>
+				<Compiler>
+					<Add option="/W3"/>
+					<Add option="/DWIN32"/>
+					<Add option="/DNDEBUG"/>
+					<Add option="/D_MBCS"/>
+					<Add option="/D_LIB"/>
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:\lapinew\prj\Gdl\Debug\Gdl.lib"/>
+				<Option working_dir=""/>
+				<Option object_output="Debug"/>
+				<Option deps_output=".deps"/>
+				<Option type="2"/>
+				<Option compiler="1"/>
+				<Option createDefFile="1"/>
+				<Option projectResourceIncludeDirsRelation="2"/>
+				<Compiler>
+					<Add option="/W3"/>
+					<Add option="/ZI"/>
+					<Add option="/YX"/>
+					<Add option="/FD"/>
+					<Add option="/GZ"/>
+					<Add option="/DWIN32"/>
+					<Add option="/D_DEBUG"/>
+					<Add option="/D_MBCS"/>
+					<Add option="/D_LIB"/>
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="..\..\Gdl\Gdl.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\config.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\ini.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\key.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\mod\mdpl.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\mod\mdpl.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\pcx.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\rar\unrarlib.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\rar\unrarlib.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\s3m\s3m.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\s3m\s3m.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\tga.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\xml\xml.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\input\xml\xml.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\misc\fileio.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\misc\freelist.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\misc\log.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\misc\misc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\misc\tablesMath.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\misc\tablesMath.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\anim.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\fbuffer.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\ptc\convert.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\ptc\convert.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\ptc\ddraw.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\ptc\ddraw.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\ptc\tinyptc.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\ptc\tinyptc.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\rlyeh\minimal.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\fbuffer\rlyeh\minimal.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\gfm\Gfm.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\gfm\Gfm.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\map\map.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\map\map.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\miscgfx.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\graphic\text.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\Fmusic.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\Fsound.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\Mixer.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\Music.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\Sound.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\minifmod.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\minifmodio.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\mixer_clipcopy.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\mixer_clipcopy.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\mixer_fpu_ramp.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\mixer_fpu_ramp.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\music_formatxm.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\music_formatxm.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\system_file.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\system_file.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\system_memory.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\minifmod\xmeffects.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\mymixr\myMixr.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\mymixr\myMixr.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\..\Gdl\output\sound\sound.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,16 @@
+zelda_mapscrn
+
+Map Format: Shorts(2 Bytes)
+
+Map Size: 80x60 tiles
+Gfx Tile Size: 16x16 pixels
+
+Tiles File Size: 1x93 tiles
+
+Files Generated:
+  D:\gdlMapMak'r\main\gfx\zelda_mapscrn.map
+  D:\gdlMapMak'r\main\gfx\zelda_mapscrn_Tiles.bmp
+  D:\gdlMapMak'r\main\gfx\zelda_mapscrn_Info.txt
+
+Process Started: 21:03:52
+Process Ended: 21:03:54

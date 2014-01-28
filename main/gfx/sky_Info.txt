@@ -1,0 +1,16 @@
+sky
+
+Map Format: Shorts(2 Bytes)
+
+Map Size: 50x80 tiles
+Gfx Tile Size: 8x8 pixels
+
+Tiles File Size: 1x740 tiles
+
+Files Generated:
+  D:\gdlMapMak'r\main\gfx\sky.map
+  D:\gdlMapMak'r\main\gfx\sky_Tiles.bmp
+  D:\gdlMapMak'r\main\gfx\sky_Info.txt
+
+Process Started: 21:37:35
+Process Ended: 21:37:36

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_workspace_file>
+<CodeBlocks_workspace_file>
+	<Workspace title="zzz workspace">
+		<Project filename="prj\Gdl\Gdl.cbp" active="1"/>
+		<Project filename="prj\main\main.cbp"/>
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,16 @@
+kial
+
+Map Format: Shorts(2 Bytes)
+
+Map Size: 47x57 tiles
+Gfx Tile Size: 8x8 pixels
+
+Tiles File Size: 1x1845 tiles
+
+Files Generated:
+  D:\gdlMapMak'r\main\gfx\kial.map
+  D:\gdlMapMak'r\main\gfx\kial_Tiles.bmp
+  D:\gdlMapMak'r\main\gfx\kial_Info.txt
+
+Process Started: 21:55:12
+Process Ended: 21:55:15
